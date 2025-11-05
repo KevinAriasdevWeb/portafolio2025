@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portafolio 2025 | Kevin Arias</title>
+    <meta
+      name="description"
+      content="Portafolio profesional de Kevin Arias, desarrollador web enfocado en experiencias digitales modernas."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header" id="inicio">
+      <div class="container">
+        <nav class="nav">
+          <a class="nav__brand" href="#inicio">KA</a>
+          <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav__menu" id="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="hero">
+          <div class="hero__content">
+            <p class="hero__kicker">Hola, soy Kevin Arias</p>
+            <h1 class="hero__title">Diseño y desarrollo experiencias web centradas en las personas.</h1>
+            <p class="hero__description">
+              Desarrollador front-end con más de 5 años creando interfaces accesibles y optimizadas. Me apasiona
+              construir productos digitales escalables que generan impacto.
+            </p>
+            <div class="hero__actions">
+              <a class="button" href="#proyectos">Ver proyectos</a>
+              <a class="button button--ghost" href="mailto:hola@kevinarias.dev">Trabajemos juntos</a>
+            </div>
+          </div>
+          <div class="hero__media" aria-hidden="true">
+            <div class="hero__avatar">KA</div>
+            <div class="hero__badge">
+              <span class="hero__badge-title">+20</span>
+              <span class="hero__badge-caption">Proyectos lanzados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="proyectos">
+        <div class="container">
+          <header class="section__header">
+            <h2>Proyectos destacados</h2>
+            <p>Una selección de productos digitales que combinan diseño atractivo y código mantenible.</p>
+          </header>
+          <div class="grid">
+            <article class="card">
+              <div class="card__content">
+                <p class="card__kicker">Producto SaaS</p>
+                <h3 class="card__title">Plataforma de analítica para e-commerce</h3>
+                <p>
+                  Arquitectura modular con React y TypeScript, dashboards interactivos y visualizaciones en tiempo real
+                  que ayudan a más de 3,000 tiendas a entender sus datos.
+                </p>
+                <ul class="pill-list">
+                  <li>React</li>
+                  <li>TypeScript</li>
+                  <li>Recharts</li>
+                </ul>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__content">
+                <p class="card__kicker">Aplicación móvil</p>
+                <h3 class="card__title">Experiencia de reservas para turismo</h3>
+                <p>
+                  Diseño responsive progresivo, integración con API de reservas y optimizaciones Lighthouse que redujeron
+                  en 40% el tiempo de carga.
+                </p>
+                <ul class="pill-list">
+                  <li>Next.js</li>
+                  <li>Node.js</li>
+                  <li>Tailwind</li>
+                </ul>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__content">
+                <p class="card__kicker">Landing</p>
+                <h3 class="card__title">Campaña fintech</h3>
+                <p>
+                  Estrategia de conversión, creación de componentes reutilizables y pruebas A/B que aumentaron los leads
+                  en un 27%.
+                </p>
+                <ul class="pill-list">
+                  <li>Astro</li>
+                  <li>Storybook</li>
+                  <li>Netlify</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--accent" id="experiencia">
+        <div class="container">
+          <header class="section__header">
+            <h2>Experiencia y habilidades</h2>
+            <p>He colaborado con startups, agencias y empresas en Latinoamérica y Estados Unidos.</p>
+          </header>
+          <div class="experience">
+            <article class="experience__item">
+              <h3>Lead Front-end · NovaTech (2022 - Actualidad)</h3>
+              <p>
+                Lidero un equipo de 6 desarrolladores, implementando diseño atómico y pipelines CI/CD que aceleraron los
+                lanzamientos semanales.
+              </p>
+            </article>
+            <article class="experience__item">
+              <h3>UI Engineer · PixelForge (2019 - 2022)</h3>
+              <p>
+                Construí librerías de componentes accesibles, integré pruebas unitarias y documentación en Storybook.
+              </p>
+            </article>
+            <article class="experience__item">
+              <h3>Skills</h3>
+              <ul class="pill-list pill-list--wrap">
+                <li>HTML semántico</li>
+                <li>CSS moderno</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Testing Library</li>
+                <li>Accesibilidad</li>
+                <li>UX Writing</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contacto">
+        <div class="container">
+          <header class="section__header">
+            <h2>¿Trabajamos juntos?</h2>
+            <p>Escríbeme un mensaje o agendemos una llamada para hablar sobre tu próximo proyecto.</p>
+          </header>
+          <div class="contact">
+            <a class="button" href="mailto:hola@kevinarias.dev">hola@kevinarias.dev</a>
+            <div class="contact__social">
+              <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://dribbble.com" target="_blank" rel="noreferrer">Dribbble</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Kevin Arias. Construido con cariño en Lima, Perú.</p>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js" defer></script>
+  </body>
+</html>
